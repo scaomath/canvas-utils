@@ -11,7 +11,7 @@ def find_files(name, path):
         for _file in files:
             if name in _file:
                 result.append(os.path.join(root, _file))
-    return result
+    return sorted(result)
 
 
 def argsort(seq):
