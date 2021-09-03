@@ -2,3 +2,6 @@
 *.txt
 *.csv
 __pycache__/auto_group.cpython-38.pyc
+*.xls
+*.csv#
+*.xls#

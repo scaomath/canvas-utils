@@ -39,7 +39,7 @@ if __name__ == "__main__":
     current_path = os.path.dirname(os.path.abspath(__file__))
 
     section_roster_files = find_files('txt', current_path)
-    course_roster_file = find_files('csv', current_path)
+    course_roster_file = find_files('csv', current_path) # roster downloaded from Canvas
 
     section_numbers = [s.split('_')[-1].split('.')[0] for s in section_roster_files]
     section_roster_lst = []
